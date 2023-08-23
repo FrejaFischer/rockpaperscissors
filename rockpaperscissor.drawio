@@ -1,0 +1,147 @@
+<mxfile host="65bd71144e">
+    <diagram id="QJRBikAlkRybWL-C_GWq" name="Page-1">
+        <mxGraphModel dx="369" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="7" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="ellipse;fillColor=strokeColor;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="30" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="playReady" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" parent="1" vertex="1">
+                    <mxGeometry x="398.75" y="150" width="172.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Both hands are knuckles&#10;Eventlistener on player buttons" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="3" vertex="1">
+                    <mxGeometry y="30" width="172.5" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;" parent="1" source="2" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="485" y="60" as="sourcePoint"/>
+                        <mxPoint x="485" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="Window load" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="95" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="playerPaper" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="324" width="260" height="106" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Eventlisteners + classList.add disabled buttons&#10;Both hands shakes&#10;Random selecter finds computerhand&#10;Animationend on playerhand shows paper&#10;Animationend on computerhand show random" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="17" vertex="1">
+                    <mxGeometry y="26" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;startArrow=none;entryX=0.485;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.472;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="24" target="17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="215" y="289.9999999999999" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="215" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="765" y="290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="765" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;entryX=0.472;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;" parent="1" source="5" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="484.6194690265488" y="220" as="sourcePoint"/>
+                        <mxPoint x="483.2800000000002" y="290.4" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="player click on paper" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="280" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1.005;entryY=0.538;entryDx=0;entryDy=0;endArrow=none;entryPerimeter=0;" parent="1" source="5" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="485.0799999999999" y="220" as="sourcePoint"/>
+                        <mxPoint x="215" y="290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="485" y="256"/>
+                            <mxPoint x="399" y="256"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="player click on rock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="268.75" y="240" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=none;" parent="1" source="5" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="485.0833333333335" y="220" as="sourcePoint"/>
+                        <mxPoint x="765" y="290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="485" y="255"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="player click on scissor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="555" y="240" width="140" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="playerRock" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="290" width="260" height="106" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Eventlisteners + classList.add disabled buttons&#10;Both hands shakes&#10;Random selecter finds computerhand&#10;Animationend on playerhand shows rock&#10;Animationend on computerhand show random" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="30" vertex="1">
+                    <mxGeometry y="26" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="playerScissor" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="290" width="260" height="106" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Eventlisteners + classList.add disabled buttons&#10;Both hands shakes&#10;Random selecter finds computerhand&#10;Animationend on playerhand shows scissor&#10;Animationend on computerhand show random" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="32" vertex="1">
+                    <mxGeometry y="26" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="findResult" style="swimlane;fontStyle=4;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;absoluteArcSize=1;arcSize=25;" parent="1" vertex="1">
+                    <mxGeometry x="355" y="520" width="260" height="106" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="If-statements on all outcomes&#10;You win or you loose or it´s a tie - result shows&#10;Play again button appears?" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="34" vertex="1">
+                    <mxGeometry y="26" width="260" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="35" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="960" y="586"/>
+                            <mxPoint x="960" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" value="player click on play again button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="36" vertex="1" connectable="0">
+                    <mxGeometry x="-0.6379" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="31" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="230" y="480"/>
+                            <mxPoint x="420" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="18" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="485" y="460"/>
+                            <mxPoint x="485" y="460"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="33" target="34" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="770" y="480"/>
+                            <mxPoint x="550" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
