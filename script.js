@@ -11,6 +11,11 @@ window.addEventListener("load", playReady);
 
 function playReady() {
   console.log("playReady");
+
+  playerHand.removeEventListener("animationend", comscissor);
+  playerHand.removeEventListener("animationend", comPaper);
+  playerHand.removeEventListener("animationend", comRock);
+
   rockButton.addEventListener("click", playerRock);
   paperButton.addEventListener("click", playerPaper);
   scissorButton.addEventListener("click", playerScissor);
@@ -152,22 +157,22 @@ function comRock() {
     //it´s a tie
     document.getElementById("draw").classList.remove("hidden");
     document.querySelector("#buttons").classList.remove("disabled");
-    // againButton.classList.remove("hidden");
-    // againButton.addEventListener("click", playReady);
+    againButton.classList.remove("hidden");
+    againButton.addEventListener("click", playReady);
   }
   if (this.className === "player paper") {
     console.log("win");
     document.getElementById("win").classList.remove("hidden");
     document.querySelector("#buttons").classList.remove("disabled");
-    // againButton.classList.remove("hidden");
-    // againButton.addEventListener("click", playReady);
+    againButton.classList.remove("hidden");
+    againButton.addEventListener("click", playReady);
   }
   if (this.className === "player scissors") {
     console.log("lose");
     document.getElementById("lose").classList.remove("hidden");
     document.querySelector("#buttons").classList.remove("disabled");
-    // againButton.classList.remove("hidden");
-    // againButton.addEventListener("click", playReady);
+    againButton.classList.remove("hidden");
+    againButton.addEventListener("click", playReady);
   }
 }
 
@@ -182,22 +187,22 @@ function comPaper() {
     //it´s a tie
     document.getElementById("draw").classList.remove("hidden");
     document.querySelector("#buttons").classList.remove("disabled");
-    // againButton.classList.remove("hidden");
-    // againButton.addEventListener("click", playReady);
+    againButton.classList.remove("hidden");
+    againButton.addEventListener("click", playReady);
   }
   if (this.className === "player scissors") {
     console.log("win");
     document.getElementById("win").classList.remove("hidden");
     document.querySelector("#buttons").classList.remove("disabled");
-    // againButton.classList.remove("hidden");
-    // againButton.addEventListener("click", playReady);
+    againButton.classList.remove("hidden");
+    againButton.addEventListener("click", playReady);
   }
   if (this.className === "player rock") {
     console.log("lose");
     document.getElementById("lose").classList.remove("hidden");
     document.querySelector("#buttons").classList.remove("disabled");
-    // againButton.classList.remove("hidden");
-    // againButton.addEventListener("click", playReady);
+    againButton.classList.remove("hidden");
+    againButton.addEventListener("click", playReady);
   }
 }
 
@@ -212,21 +217,21 @@ function comscissor() {
     //it´s a tie
     document.getElementById("draw").classList.remove("hidden");
     document.querySelector("#buttons").classList.remove("disabled");
-    // againButton.classList.remove("hidden");
-    // againButton.addEventListener("click", playReady);
+    againButton.classList.remove("hidden");
+    againButton.addEventListener("click", playReady);
   }
   if (this.className === "player rock") {
     console.log("win");
     document.getElementById("win").classList.remove("hidden");
     document.querySelector("#buttons").classList.remove("disabled");
-    // againButton.classList.remove("hidden");
-    // againButton.addEventListener("click", playReady);
+    againButton.classList.remove("hidden");
+    againButton.addEventListener("click", playReady);
   }
   if (this.className === "player paper") {
     console.log("lose");
     document.getElementById("lose").classList.remove("hidden");
     document.querySelector("#buttons").classList.remove("disabled");
-    // againButton.classList.remove("hidden");
-    // againButton.addEventListener("click", playReady);
+    againButton.classList.remove("hidden");
+    againButton.addEventListener("click", playReady);
   }
 }
